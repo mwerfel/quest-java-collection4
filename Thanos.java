@@ -51,8 +51,8 @@ public class Thanos {
 
 
         // For each hero, alphabetically, print the corresponding flower
-        for (Hero myHero : party.keySet()) {
-         Flower flower = party.get(myHero);
+        for (Hero newHero : party.keySet()) {
+         Flower flower = party.get(newHero);
          System.out.println(flower.getName());
         }
 
